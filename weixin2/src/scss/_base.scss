@@ -1,0 +1,131 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+img{
+  border: 0;
+}
+.clearfix:after,.clearfix:before{
+  content:"";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
+%pub{
+  width: 100%;
+  height: 100%;
+}
+html,body{
+  font-family: "Microsoft YaHei";
+  @extend %pub;
+}
+.swiper-wrapper{
+  @extend %pub;
+}
+.swiper-container{
+  margin: 0 auto;
+  max-width:640px;
+  @extend %pub;
+  background: #fff;
+}
+@for $i from 1 to 11{
+  .page-#{$i}{
+    @extend %pub;
+    position: relative;
+  }
+}
+.swiper-slide{
+  &:after{
+    content:"";
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:0 auto;
+    width:24px;
+    height:18px;
+    background:url("../images/tip.png")no-repeat;
+    animation: line 1s linear infinite;
+  }
+}
+@keyframes line{
+  from{opacity:1;bottom:0px;}
+  to{opacity: 0;bottom:50px;}
+}
+.music-c{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: 40px;
+  top:40px;
+  z-index:3;
+  background:url("../images/music_off_8d94020.png") no-repeat;
+  animation: cir 1s linear infinite;
+}
+@keyframes cir{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
+}
+.music-note{
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  right: 10px;
+  top:10px;
+  z-index:-1;
+  background:url("../images/music_c0fda01.gif") no-repeat;
+}
+.bbg{
+  width: 213.75000000000003%;
+  height: 101.78571428571428%;
+  left: -17.0625%;
+  top: -0.694444%;
+}
+.bbg2{
+  width: 217.1875%;
+  height: 103.37301587301589%;
+  left: -36.875%;
+  top: -2.380952380952381%;
+}
+.bbg,.bbg2,.bbg3,.bbg4,.bbg5{
+  position: absolute;
+  z-index: 0;
+}
+.bbg3{
+  width: 108.74999999999999%;
+  height: 102.57936507936508%;
+  left: -2.1875%;
+  top: -1.488095238095238%;
+}
+.bbg4{
+  width: 111.56250000000001%;
+  height: 102.57936507936508%;
+  left: -5.78125%;
+  top: -1.3888888888888888%;
+}
+.bbg img{
+  @extend %pub;
+}
+.bbg2 img{
+  @extend %pub;
+}
+.bbg3 img{
+  @extend %pub;
+}
+.bbg4 img{
+  @extend %pub;
+}
+.bbg5 img{
+  @extend %pub;
+}

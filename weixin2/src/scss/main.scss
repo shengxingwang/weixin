@@ -1,0 +1,463 @@
+@import "base";
+.page-1>div{
+  position: absolute;
+  z-index: 0;
+}
+.img2{
+  width: 29.062500000000004%;
+  height: 6.944444444444445%;
+  left: 32.8125%;
+  top: 86.21031746031747%;
+}
+.img3{
+  width: 6.5625%;
+  height: 4.365079365079365%;
+  left: 55.90812683105468%;
+  top: 70.53571428571429%;
+}
+//@keyframes showIn{
+//  from{transform:translateY(-50px);opacity:0;}
+//  to{transform:translateY(0px);opacity:1;}
+//}
+.img1{
+  position: absolute;
+  width: 18.4375%;
+  height: 14.285714285714285%;
+  left: 41.40625%;
+  top: 73.11507936507937%;
+  z-index: 0;
+}
+.img4{
+  width: 41.5625%;
+  height: 34.32539682539682%;
+  left:-0.4375%;
+  top: 57.297619%
+}
+.img5{
+  width: 24.6875%;
+  height: 37.89682539682539%;
+  left: 63.4375%;
+  top: 53.67063492063492%;
+}
+.imgt1,.imgt2,.imgt3,.txtb1,.txtb2,.txt{
+  z-index: 0;
+  color:#fff;
+  background: rgba(30, 30, 30,.6);
+  position: absolute;
+  border-radius:10px;
+}
+.txtb1,.txtb2{
+  background:none;
+  text-align: center;
+}
+.txtb1,.txtb2{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size:34px;
+}
+.txtb1{
+  width: 56.25%;
+  height:auto;
+  left: 23.125%;
+  top: 5.464285714285714%;
+}
+.txtb2{
+  width: 56.25%;
+  height:auto;
+  left: 23.125%;
+  top:10.464286%;
+}
+.txt{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size:18px;
+  text-align: center;
+  background: rgba(30, 30, 30,.6);
+  border-radius:10px;
+}
+.tit{
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+  font-weight: 400;
+  width: 56.25%;
+  height: auto;
+  left: 22.8125%;
+  top: 11.408730158730158%;
+  background:none;
+  color:#666;
+  font-size: 24px;
+}
+.txtp1{
+  width: 56.25%;
+  height: auto;
+  left: 22.8125%;
+  top: 19.337302%;
+  background:none;
+}
+.imgt1{
+  width: 31.25%;
+  height: 6.841269841269842%;
+  left: 19%;
+  top: 51.043651%;
+}
+.imgt3{
+  width: 31.25%;
+  height: 6.841269841269842%;
+  left: 19%;
+  top: 51.043651%;
+}
+.imgt2{
+  width: 26.25%;
+  height: 7.666666666666664%;
+  left: 65.625%;
+  top: 46.57539682539682%;
+}
+/*---------page2-----------*/
+.page-2 img{
+  @extend %pub;
+}
+.listimg,.txt{
+  position: absolute;
+  z-index: 0;
+}
+.p2img1{
+  width: 50%;
+  height: 31.150793650793652%;
+  left: 28.125%;
+  top: 62.797619047619044%;
+}
+.p2img2{
+  width: 50%;
+  height: 29.96031746031746%;
+  left: 22.5%;
+  top: 29.96031746031746%;
+}
+.txt1{
+  width: 28.749999999999996%;
+  height: 5.253968%;
+  left: 12.875%;
+  top: 58.519841%;
+  color:#fff;
+  background: rgba(30, 30, 30,.6);
+  font-size: 18px;
+}
+.p2img3{
+  width: 32.5%;
+  height: 19.642857142857142%;
+  left: 69.0625%;
+  top: 65.77380952380952%;
+}
+.p2img4{
+  width: 15%;
+  height: 11.507936507936508%;
+  left: 63.125%;
+  top: 83.43253968253968%;
+}
+.p3img1{
+  width: 34.6875%;
+  height: 15.873015873015872%;
+  left: 47.8125%;
+  top: 73.11507936507937%;
+}
+.p3img2{
+  width: 8.4375%;
+  height: 6.746031746031746%;
+  left: 78.75%;
+  top: 81.25%;
+}
+.p3img3{
+  width: 20.3125%;
+  height: 16.071428571428573%;
+  left: 72.8125%;
+  top: 71.92460317460318%;
+}
+.p3img4{
+  width: 29.062500000000004%;
+  height: 23.015873015873016%;
+  left: 68.4375%;
+  top: 67.980159%;
+}
+.p3img5{
+  width: 52.1875%;
+  height: 30.158730158730158%;
+  left: 6.5%;
+  top: 56.18254%;
+}
+.txt2{
+  width: 40.9375%;
+  height: 7.3015873015873%;
+  left: 23.125%;
+  top: 47.980159%;
+}
+/*------page4------*/
+.p4img1 img{
+  @extend %pub;
+}
+.p4img1{
+  width: 110.31249999999999%;
+  height: 17.063492063492063%;
+  left: -10%;
+  top: 83.03571428571429%;
+}
+.p4img2{
+  width: 42.5%;
+  height: 14.682539682539684%;
+  left: 30%;
+  top: 83.051587%;
+}
+.p4img3{
+  width: 94.375%;
+  height: 32.142857142857146%;
+  left: 10.4375%;
+  top: 61.464286%;
+}
+/*-----page5-----*/
+.page-5 img{
+  @extend %pub;
+}
+.p5img1{
+  width: 275.625%;
+  height: 70.83333333333334%;
+  left: -82.5%;
+  top: -0.2976190476190476%;
+}
+.p5img2{
+  width: 44.375%;
+  height: 32.142857142857146%;
+  left: 19.375%;
+  top: 59.62301587301587%;
+}
+.p5img3{
+  width: 81.5625%;
+  height: 20.436507936507937%;
+  left: -10.3125%;
+  top: 64.58333333333334%;
+}
+.p5img4{
+  width: 74.375%;
+  height: 26.190476190476193%;
+  left: -33.4375%;
+  top: 74.50396825396825%;
+}
+.p5img5{
+  width: 100.3125%;
+  height: 47.61904761904761%;
+  left: 0%;
+  top: 52.480158730158735%;
+}
+.p5img6{
+  width: 29.375%;
+  height: 7.738095238095238%;
+  left: 60.9375%;
+  top: 60.813492063492056%;
+}
+.p5img7{
+  width: 34.6875%;
+  height: 19.444444444444446%;
+  left: 62.34375%;
+  top: 43.35317460317461%;
+}
+.p5img8{
+  width: 25.937500000000004%;
+  height: 4.563492063492063%;
+  left: 40%;
+  top: 64.18650793650794%;
+}
+.p5img9{
+  width: 23.75%;
+  height: 17.261904761904763%;
+  left: 16.875%;
+  top: 63.988095238095234%;
+}
+.p5img10{
+  width: 59.375%;
+  height: 8.928571428571429%;
+  left: 40.625%;
+  top: 66.17063492063492%;
+}
+.p5img11{
+  width: 73.4375%;
+  height: 16.26984126984127%;
+  left: 19.0625%;
+  top: 70.93253968253968%;
+}
+.p5img12{
+  width: 46.25%;
+  height: 17.46031746031746%;
+  left: 19.375%;
+  top: 78.67063492063492%;
+}
+.p5img13{
+  width: 10.625%;
+  height: 6.349206349206349%;
+  left: 83.75%;
+  top: 62.797619047619044%;
+}
+.p5img14{
+  width: 37.8125%;
+  height: 16.666666666666664%;
+  left: 62.5%;
+  top: 67.1626984126984%;
+}
+.p5img15{
+  width: 11.5625%;
+  height: 8.333333333333332%;
+  left: 57.49999999999999%;
+  top: 64.58333333333334%;
+}
+/*--------page6---------*/
+.page-6 img{
+  @extend %pub;
+}
+.p6img1{
+  width: 100.3125%;
+  height: 47.817460317460316%;
+  left: 0%;
+  top: 32.63888888888889%;
+}
+.p6img2{
+  width: 30.625000000000004%;
+  height: 19.642857142857142%;
+  left: 25%;
+  top: 49.801587301587304%;
+}
+/*------page7-------*/
+.page-7 img{
+  @extend %pub;
+}
+.p7img1{
+  width: 140.3125%;
+  height: 66.86507936507937%;
+  left: -16.5625%;
+  top: 34.02777777777778%;
+}
+.p7img2{
+  width: 50%;
+  height: 26.785714285714285%;
+  left: 22.8125%;
+  top: 26.58730158730159%;
+}
+.pb{
+  color:#000;
+}
+/*----page8-----*/
+.page-8 img{
+  @extend %pub;
+}
+.p8img1{
+  width: 100%;
+  height: 38.2936507936508%;
+  left: -0.3125%;
+  top: 45.43650793650794%;
+}
+.p8img2{
+  width: 18.125%;
+  height: 21.23015873015873%;
+  left: -0.3125%;
+  top: 55.05952380952381%;
+}
+.p8img3{
+  width: 99.0625%;
+  height: 24.206349206349206%;
+  left: 1.25%;
+  top: 65.37698412698413%;
+}
+.p8img4{
+  width: 3.125%;
+  height: 5.158730158730158%;
+  left: 54.0625%;
+  top: 69.94047619047619%;
+}
+.p8img5{
+  width: 12.1875%;
+  height: 4.9603174603174605%;
+  left: 76.875%;
+  top: 70.73412698412699%;
+}
+.p8img6{
+  width: 35.9375%;
+  height: 14.484126984126986%;
+  left: 63.4375%;
+  top: 63.78968253968254%;
+}
+.p8img7{
+  width: 64.0625%;
+  height: 32.34126984126984%;
+  left: 11.875%;
+  top: 45.13888888888889%;
+}
+/*----page9-----*/
+.page-9 img{
+  @extend %pub;
+}
+.p9img1{
+  width: 100%;
+  height: 74.60317460317461%;
+  left: -0.3125%;
+  top: 26.091269841269842%;
+}
+.p9img2{
+  width: 100%;
+  height: 73.80952380952381%;
+  left: -0.3125%;
+  top: 26.884920634920633%;
+}
+.p9img3{
+  width: 100.3125%;
+  height: 73.21428571428571%;
+  left: -0.625%;
+  top: 26.984126984126984%;
+}
+/*----page10-----*/
+.page-10 img{
+  @extend %pub;
+}
+.p10img1{
+  width: 103.4375%;
+  height: 61.70634920634921%;
+  left: 6.5625%;
+  top: 23.115079365079367%;
+}
+.p10img2{
+  width: 71.875%;
+  height: 78.37301587301587%;
+  left: 28.749999999999996%;
+  top: 23.313492063492063%;
+}
+.p10img3{
+  width: 25%;
+  height: 11.706349206349206%;
+  left: 6.25%;
+  top: 4.166666666666666%;
+}
+.bomtit{
+  background: none;
+  color:#666;
+  font-size: 32px;
+  width: 56.25%;
+  height: auto;
+  left: 34.6875%;
+  top: 8.928571428571429%;
+}
+.btn{
+  width: 23.4375%;
+  height: 4.9603174603174605%;
+  left: 67.1875%;
+  top: 17.16269841269841%;
+  z-index:0;
+  position: absolute;
+}
+.btn>button{
+  background-color: #8bc53f;
+  color: #FFFFFF;
+  border-radius: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  opacity: 1;
+  font-size: 14px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}

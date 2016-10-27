@@ -1,0 +1,400 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+img{
+  border: 0;
+}
+.clearfix:after,.clearfix:before{
+  content:"";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix{
+  zoom: 1;
+}
+%pub{
+  width: 100%;
+  height: 100%;
+}
+html,body{
+  @extend %pub;
+}
+.swiper-wrapper{
+  @extend %pub;
+}
+.swiper-container{
+  margin: 0 auto;
+  max-width:640px;
+  @extend %pub;
+  background: #fff;
+}
+@for $i from 1 to 6{
+  .b-page#{$i}{
+    @extend %pub;
+    position: relative;
+  }
+  .b-page#{$i}>img{
+    position: absolute;
+    @extend %pub;
+  }
+}
+.swiper-slide{
+  &:after{
+    content:"";
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:0 auto;
+    width:24px;
+    height:18px;
+    background:url("../images/tip.png")no-repeat;
+    animation: line 1s linear infinite;
+  }
+}
+@keyframes line {
+  from{opacity:1;bottom:0px;}
+  to{opacity: 0;bottom:50px;}
+}
+.music-c{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: 40px;
+  top:40px;
+  z-index:3;
+  background:url("../images/music_off_8d94020.png") no-repeat;
+  animation: cir 1s linear infinite;
+}
+@keyframes cir{
+  from{transform:rotate(0deg)}
+  to{transform:rotate(360deg)}
+}
+.music-note{
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  right: 10px;
+  top:10px;
+  z-index:-1;
+  background:url("../images/music_c0fda01.gif") no-repeat;
+}
+.cbox{
+  position: absolute;
+  @extend %pub;
+  padding:18px 10px;
+}
+img{
+  @extend %pub;
+}
+.topb{
+  width:69%;
+  height:9.8%;
+  top:11%;
+  left: 15%;
+  position: absolute;
+}
+.tbg{
+  position: absolute;
+  width: 80.6%;
+  height: 5.9%;
+  top:23.5%;
+  left: 10%;
+}
+.de{
+  position: absolute;
+  width:39.3%;
+  height:8.53%;
+  left:12.9%;
+  top:33.7%;
+}
+.p{
+  position: absolute;
+  width:77.02%;
+  height:55.3%;
+  left:13.6%;
+  top:36.3%;
+}
+.xin{
+  position: absolute;
+  width:55.02%;
+  height:20.7%;
+  left:35.6%;
+  top:27.4%;
+}
+.bom{
+  position: absolute;
+  width:65.9%;
+  height:8.43%;
+  left:17.18%;
+  top:79.26%;
+}
+.txt{
+  position: absolute;
+  width:42.34%;
+  height:2.48%;
+  left:29.21%;
+  top:93.15%;
+}
+/*-----p2------*/
+@for $i from 1 to 13{
+  .b-page2>.img#{$i}{
+    position: absolute;
+    z-index: 0;
+  }
+}
+.b-page2>.img1{
+  width: 27.187499999999996%;
+  height: 13.789682539682541%;
+  left: 4.53125%;
+  top: 2.579365079365079%;
+}
+.b-page2>.img2{
+  width: 63.125%;
+  height: 27.876984126984127%;
+  left: 4.53125%;
+  top: 2.579365079365079%;
+}
+.b-page2>.img3{
+  width: 90.9375%;
+  height: 40.773809523809526%;
+  left: 4.53125%;
+  top: 2.579365079365079%;
+}
+.b-page2>.img4{
+  width: 63.28125%;
+  height: 26.686507936507937%;
+  left: 32.1875%;
+  top: 16.666666666666664%;
+}
+.b-page2>.img5{
+  width: 27.34375%;
+  height: 12.5%;
+  left: 68.125%;
+  top: 30.853174603174605%;
+}
+.b-page2>.img6{
+  width: 39.6875%;
+  height: 3.571428571428571%;
+  left: 50.625%;
+  top: 55.45634920634921%;
+}
+@for $i from 7 to 12{
+  .b-page2>.img#{$i}{
+    position: absolute;
+    width: 32.03125%;
+    height: 8.134920634920634%;
+    left: 13.593749999999998%;
+    z-index: 0;
+  }
+}
+.b-page2>.img7{
+  top: 46.726190476190474%;
+}
+.b-page2>.img8{
+  top: 56.95634920634921%;
+}
+.b-page2>.img9{
+  top: 66.95634920634921%;
+}
+.b-page2>.img10{
+  top: 76.95634920634921%;
+}
+.b-page2>.img11{
+  top: 86.95634920634921%;
+}
+.b-page2>.img12{
+  width: 35%;
+  height: 28.373015873015873%;
+  left: 55.625%;
+  top: 65.37698412698413%;
+}
+/*-----------p3---------------*/
+@for $i from 1 to 5{
+  .b-page3>.img#{$i}{
+    position: absolute;
+    z-index: 0;
+  }
+}
+@for $i from 1 to 5{
+  .b-page3>.imgg#{$i}{
+    position: absolute;
+    z-index: 0;
+  }
+}
+.b-page3>.imgt{
+  position: absolute;
+  z-index: 0;
+  width: 84.53125%;
+  height: 94.44444444444444%;
+  left: 8.125%;
+  top: 3.670634920634921%;
+}
+.b-page3>.img1{
+  width: 40.9375%;
+  height: 22.71825396825397%;
+  left: 8.125%;
+  top: 8.333333333333332%;
+}
+.b-page3>.imgg1{
+  width: 38.90625%;
+  height: 22.51984126984127%;
+  left: 54.0625%;
+  top: 9.523809523809524%;
+}
+.b-page3>.img2{
+  width: 31.406250000000004%;
+  height: 16.666666666666664%;
+  left: 57.8125%;
+  top: 33.53174603174603%;
+}
+.b-page3>.imgg2{
+  width: 40.78125%;
+  height: 17.36111111111111%;
+  left: 6.09375%;
+  top: 33.63095238095239%;
+}
+.b-page3>.img3{
+  width: 40.9375%;
+  height: 26.785714285714285%;
+  left: 8.125%;
+  top: 51.98412698412699%;
+}
+.b-page3>.imgg3{
+  width: 38.75%;
+  height: 24.6031746031746%;
+  left: 54.37499999999999%;
+  top: 53.17460317460318%;
+}
+.b-page3>.img4{
+  width: 35.625%;
+  height: 17.956349206349206%;
+  left: 57.8125%;
+  top: 78.17460317460318%;
+}
+.b-page3>.imgg4{
+  width: 40.78125%;
+  height: 15.873015873015872%;
+  left: 6.09375%;
+  top: 79.26587301587301%;
+}
+/*---------p4---------*/
+@for $i from 1 to 7{
+  .b-page4>.img#{$i}{
+    position: absolute;
+    z-index: 0;
+  }
+}
+.b-page4>.img1{
+  width: 82.34375%;
+  height: 36.01190476190476%;
+  left: 5.3125%;
+  top: 3.968253968253968%;
+}
+.b-page4>.img2{
+  width: 100%;
+  height: 42.55952380952381%;
+  left: 0%;
+  top: 57.44047619047619%;
+}
+.b-page4>.img3{
+  width: 39.0625%;
+  height: 8.531746031746032%;
+  left: 9.6875%;
+  top: 39.980158730158735%;
+}
+.b-page4>.img4{
+  width: 35.625%;
+  height: 9.325396825396826%;
+  left: 58.75%;
+  top: 46.13095238095239%;
+}
+.b-page4>.img5{
+  width: 31.25%;
+  height: 1.488095238095238%;
+  left: 58.4375%;
+  top: 55.75396825396825%;
+}
+.b-page4>.img6{
+  width: 12.34375%;
+  height: 23.115079365079367%;
+  left: 87.65625%;
+  top: 13.194444444444445%;
+}
+/*---------p5---------*/
+@for $i from 1 to 11{
+  .b-page5>.img#{$i}{
+    position: absolute;
+    z-index: 0;
+  }
+}
+.b-page5>.img1{
+  width: 82.03125%;
+  height: 70.03968253968253%;
+  left: 8.90625%;
+  top: 25.595238095238095%;
+}
+.b-page5>.img2{
+  width: 39.6875%;
+  height: 10.813492063492063%;
+  left: 9.0625%;
+  top: 9.325396825396826%;
+}
+.b-page5>.img3{
+  width: 42.03125%;
+  height: 18.948412698412696%;
+  left: 51.40625%;
+  top: 9.226190476190476%;
+}
+.b-page5>.img4{
+  width: 29.375%;
+  height: 31.845238095238095%;
+  left: 20.78125%;
+  top: 31.746031746031743%;
+}
+.b-page5>.img5{
+  width: 17.34375%;
+  height: 25.198412698412696%;
+  left: 13.28125%;
+  top: 58.53174603174603%;
+}
+.b-page5>.img6{
+  width: 39.84375%;
+  height: 17.75793650793651%;
+  left: 56.40625%;
+  top: 34.02777777777778%;
+}
+.b-page5>.img7{
+  width: 39.6875%;
+  height: 10.813492063492063%;
+  left: 56.71874999999999%;
+  top: 56.74603174603175%;
+}
+.b-page5>.img8{
+  width: 31.25%;
+  height: 8.134920634920634%;
+  left: 15.937499999999998%;
+  top: 84.92063492063492%;
+}
+.b-page5>.img9{
+  width: 31.25%;
+  height: 8.134920634920634%;
+  left: 62.96874999999999%;
+  top: 72.91666666666666%;
+}
+.b-page5>.img10{
+  width: 31.25%;
+  height: 8.134920634920634%;
+  left: 63.125%;
+  top: 84.92063492063492%;
+}
